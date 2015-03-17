@@ -1,13 +1,22 @@
 body {
-    background: black;
-    color: #f0f;
+    background: #424242;
+    color: #FFB300;
 
     margin: 0;
     padding: 0;
 }
 
+p {
+    font-size: 16px;
+}
+
 a,a:visited {
-    color: #f0f;
+    color: #FFB300;
+}
+
+#container {
+    width: 800px;
+    margin: 0 auto 0;
 }
 
 #logo {
@@ -22,7 +31,6 @@ a,a:visited {
 }
 .title {
     text-align: center;
-    color: #f0f;
     font-size: 200px;
 }
 
@@ -98,4 +106,20 @@ a,a:visited {
   100% {
     opacity: 0.0;
   }
+}
+
+
+@media (max-width: 800px) {
+    #container {
+        width: 100%;
+    }
+    .title {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 400px) {
+    .title {
+        font-size: 70px;
+    }
 }
