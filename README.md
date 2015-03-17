@@ -4,4 +4,4 @@ engineer hitode909
 
 designer yulily100
 
-「生活を豊かにする金」がモットー。今後の活動に期待。
+活動している。今後の活動に期待。
