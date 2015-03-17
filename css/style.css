@@ -1,0 +1,101 @@
+body {
+    background: black;
+    color: #f0f;
+
+    margin: 0;
+    padding: 0;
+}
+
+a,a:visited {
+    color: #f0f;
+}
+
+#logo {
+    position: relative;
+    overflow: hidden;
+}
+.user-icon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+.title {
+    text-align: center;
+    color: #f0f;
+    font-size: 200px;
+}
+
+.blink-a {
+  -webkit-animation: blink-a 0.4s ease-in-out infinite alternate;
+  -moz-animation: blink-a 0.4s ease-in-out infinite alternate;
+  animation: blink-a 0.4s ease-in-out infinite alternate;
+}
+
+.blink-b {
+  -webkit-animation: blink-b 0.4s ease-in-out infinite alternate;
+  -moz-animation: blink-b 0.4s ease-in-out infinite alternate;
+  animation: blink-b 0.4s ease-in-out infinite alternate;
+}
+
+.title-blink-a {
+  -webkit-animation: blink-a 0.5s ease-in-out infinite alternate;
+  -moz-animation: blink-a 0.5s ease-in-out infinite alternate;
+  animation: blink-a 0.5s ease-in-out infinite alternate;
+}
+
+.title-blink-b {
+  -webkit-animation: blink-b 0.5s ease-in-out infinite alternate;
+  -moz-animation: blink-b 0.5s ease-in-out infinite alternate;
+  animation: blink-b 0.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes blink-a {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+@-moz-keyframes blink-a {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+@keyframes blink-a {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+@-webkit-keyframes blink-b {
+  0% {
+    opacity: 1.0;
+  }
+  100% {
+    opacity: 0.0;
+  }
+}
+@-moz-keyframes blink-b {
+  0% {
+    opacity: 1.0;
+  }
+  100% {
+    opacity: 0.0;
+  }
+}
+@keyframes blink-b {
+  0% {
+    opacity: 1.0;
+  }
+  100% {
+    opacity: 0.0;
+  }
+}
