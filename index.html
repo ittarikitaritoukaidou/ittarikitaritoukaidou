@@ -31,6 +31,15 @@
 
   </head>
   <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=200080966784656&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
     <div id="container">
       <div id="logo">
         <img src="/images/hitode909.png" class="user-icon blink-a">
@@ -48,20 +57,40 @@
         <h2>ABOUT US</h2>
         <p>
           行ったり来たり東海道は、
-          <a href="https://twitter.com/hitode909" target="_blank">hitode909</a>
+          <a href="https://twitter.com/hitode909" target="_blank"><img src="/images/hitode909.png" style="width: 24px; vertical-align: middle;">hitode909</a>
           と
-          <a href="https://twitter.com/yulily100" target="_blank">yulily100</a>
+          <a href="https://twitter.com/yulily100" target="_blank"><img src="/images/yulily100.png" style="width: 24px; vertical-align: middle;">yulily100</a>
           のユニット。
           <br/>
-          活動している。今後の活動に期待。
+          活動している。
         </p>
       </div>
+
       <div id="productis">
         <h2>PRODUCTS</h2>
-        <ul>
-          <li>COMING SOON</li>
-        </ul>
+        <h3><a href="https://tabinootomo.herokuapp.com/">旅のお供</a></h3>
+        <p>
+          旅のしおりを作れるサービス<br>
+          <a href="https://tabinootomo.herokuapp.com/">https://tabinootomo.herokuapp.com/</a>
+        </p>
+      </div>
+
+      <div id="buttons">
+        <div class="button">
+          <div class="fb-share-button" data-href="http://ittarikitaritoukaidou.github.io/" data-layout="box_count"></div>
+        </div>
+
+        <div class="button">
+          <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+        </div>
+
+        <div class="button">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="hitode909" data-size="large" data-count="vertical">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+
       </div>
     </div>
+
   </body>
 </html>

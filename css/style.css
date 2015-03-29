@@ -123,3 +123,11 @@ a,a:visited {
         font-size: 70px;
     }
 }
+
+#buttons {
+    margin-top: 40px;
+}
+.button {
+    float: left;
+    margin-right: 10px;
+}
